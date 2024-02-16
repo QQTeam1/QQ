@@ -1,6 +1,6 @@
-# GameName - 2D C# Game in Unity
+# QQ - 2D C# Game in Unity
 
-Welcome to GameName, an exciting 2D game developed in C# within the Unity game engine. Immerse yourself in the world of adventure and challenges with our captivating game.
+Welcome to QQ, an exciting 2D game developed in C# within the Unity game engine. Immerse yourself in the world of adventure and challenges with our captivating game.
 
 ## Features
 
