@@ -1,4 +1,4 @@
-# Anaboliy - 2D C# Game
+# Anaboliy NightMaze - 2D C# Game
 
 Welcome to Anaboliy, an exciting 2D game developed in C# that promises an immersive gaming experience. Dive into the world of adventure and challenges with our captivating game.
 
