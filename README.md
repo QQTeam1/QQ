@@ -12,3 +12,4 @@ Welcome to QQ, an exciting 2D game developed in C# within the Unity game engine.
 1. **Clone the Repository:**
    ```bash
    git clone git@github.com:alexxqq/QQ.git
+qq
