@@ -14,3 +14,4 @@ Welcome to Anaboliy, an exciting 2D game developed in C# that promises an immers
    ```bash
    git clone git@github.com:alexxqq/QQ.git
 Anaboliy
+Veladis Love
