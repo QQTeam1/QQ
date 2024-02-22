@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|c:\\program1\\unitygames\\nightmaze\\assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\awakestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\awakestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\rotationlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotationlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovingWithJoystick.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\MovingWithJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingWithJoystick.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\MovingWithJoystick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovingWithJoystick.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:22:45.794Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,6 +52,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T17:53:04.648Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AwakeStart.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\AwakeStart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AwakeStart.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\AwakeStart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AwakeStart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:21:05.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RotationLight.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\RotationLight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotationLight.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\RotationLight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotationLight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:22:46.425Z"
             }
           ]
         }
