@@ -1,0 +1,47 @@
+name: Build project
+
+on: [push, pull_request]
+  
+jobs:
+    buildForAllSupportedPlatforms:
+        name: Build for ${{ matrix.targetPlatform }}
+        runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false
+            matrix:
+                targetPlatform:
+                    - StandaloneWindows64 # Build a Windows 64-bit standalone.
+        steps:
+            - uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
+                  lfs: true
+
+            - name: Build project
+              run: mv NightMaze/* .
+
+            - uses: game-ci/unity-builder@v4
+              env:
+                  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+                  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+                  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+                  allowDirtyBuild: true
+              with:
+                  targetPlatform: ${{ matrix.targetPlatform }}
+
+            - uses: actions/upload-artifact@v2
+              with:
+                  name: Build-${{ matrix.targetPlatform }}
+                  path: build/${{ matrix.targetPlatform }}
+                  allowDirtyBuild: true
+
+            - name: Configure AWS credentials
+              uses: aws-actions/configure-aws-credentials@v2
+              with:
+                aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+                aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+                aws-region: eu-north-1 
+
+            - name: Upload to S3
+              run: |
+                aws s3 sync build s3://qqteam/NightMaze/DevelopBuild/
