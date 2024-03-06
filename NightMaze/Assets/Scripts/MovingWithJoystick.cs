@@ -22,7 +22,7 @@ public class MovingWithJoystick : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 0, 0);
             //transform.Rotate(0, 0, 0);
         }
-        if (_joystick.Horizontal < 0)
+        else if (_joystick.Horizontal < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
             //transform.Rotate(0, 180, 0);
