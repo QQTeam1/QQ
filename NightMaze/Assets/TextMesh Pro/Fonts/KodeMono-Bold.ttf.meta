@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 33eb5a61245228740a809e34f11b2b74
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  - Kode Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4c0f06e66fa2daf49a0e5ec31c8df04f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 1
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
