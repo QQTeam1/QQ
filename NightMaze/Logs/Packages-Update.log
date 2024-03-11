@@ -91,3 +91,12 @@ The following packages were updated:
   com.unity.timeline from version 1.7.3 to 1.7.6
   com.unity.visualscripting from version 1.8.0 to 1.9.1
 >>>>>>> 8f99b8bfb558c5d3634589aeec5123e9b07c36fe
+
+=== Thu Mar  7 10:55:56 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.editorcoroutines@1.0.0
+  com.unity.nuget.newtonsoft-json@3.2.1
