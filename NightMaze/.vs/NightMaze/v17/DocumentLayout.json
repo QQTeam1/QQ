@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Program1\\UnityGames\\NightMaze\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program1\\UnityGames\\NightMaze\\Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|c:\\program1\\unitygames\\nightmaze\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\trapscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trapscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program1\\UnityGames\\NightMaze\\Assets\\LocalSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,20 +62,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LocalizationSettings.cs",
-              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs",
-              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.localization@1.4.5\\Runtime\\Settings\\LocalizationSettings.cs",
-              "ViewState": "AQIAABIBAAAAAAAAAAAjwCYBAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "CheckpointManager.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\CheckpointManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointManager.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\CheckpointManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CheckpointManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T09:37:50.728Z",
+              "WhenOpened": "2024-03-18T08:24:51.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Checkpoint.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Checkpoint.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Checkpoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Checkpoint.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:24:48.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:24:54.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TrapScript.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\TrapScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TrapScript.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\TrapScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TrapScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:24:38.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LocalSelector.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\LocalSelector.cs",
               "RelativeDocumentMoniker": "Assets\\LocalSelector.cs",
@@ -70,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
@@ -83,30 +135,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JoystickEditor.cs",
-              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Joystick Pack\\Scripts\\Editor\\JoystickEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Joystick Pack\\Scripts\\Editor\\JoystickEditor.cs",
-              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Joystick Pack\\Scripts\\Editor\\JoystickEditor.cs",
-              "RelativeToolTip": "Assets\\Joystick Pack\\Scripts\\Editor\\JoystickEditor.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwCoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T07:45:24.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MovingWithJoystick.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\MovingWithJoystick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovingWithJoystick.cs",
               "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\MovingWithJoystick.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovingWithJoystick.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBgAAAANAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAABRwDYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-22T08:22:45.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Test.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Test.cs",
@@ -118,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AwakeStart.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\AwakeStart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AwakeStart.cs",
@@ -130,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RotationLight.cs",
               "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\RotationLight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotationLight.cs",
