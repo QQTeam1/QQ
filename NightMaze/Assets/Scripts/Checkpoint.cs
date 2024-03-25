@@ -27,7 +27,6 @@ public class Checkpoint : MonoBehaviour
         {
             checkpoint.SetCheckpoint(transform.position);
         }
-        //checkpoint.SetCheckpoint(transform.position);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
