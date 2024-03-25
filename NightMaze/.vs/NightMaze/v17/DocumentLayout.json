@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program1\\UnityGames\\NightMaze\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|c:\\program1\\unitygames\\nightmaze\\assets\\scripts\\enemys-traps scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemys-traps scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\playerscripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\movingwithjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|c:\\program1\\unitygames\\nightmaze\\assets\\scripts\\playerscripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\enemys-traps scripts\\enemygfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemys-traps scripts\\enemygfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|C:\\Program1\\UnityGames\\NightMaze\\assets\\scripts\\enemys-traps scripts\\trapscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECAF895D-D86C-6265-889F-63ECB5A0D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemys-traps scripts\\trapscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\PlayerScripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\Health.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\PlayerScripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:47:39.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovingWithJoystick.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\PlayerScripts\\MovingWithJoystick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\MovingWithJoystick.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\PlayerScripts\\MovingWithJoystick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\MovingWithJoystick.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwDwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:25:48.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrapScript.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\TrapScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemys-Traps Scripts\\TrapScript.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\TrapScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemys-Traps Scripts\\TrapScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:21:27.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyGFX.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\EnemyGFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemys-Traps Scripts\\EnemyGFX.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\EnemyGFX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemys-Traps Scripts\\EnemyGFX.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:24:40.772Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemys-Traps Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Program1\\UnityGames\\NightMaze\\Assets\\Scripts\\Enemys-Traps Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemys-Traps Scripts\\Enemy.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAiwLEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:21:47.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
