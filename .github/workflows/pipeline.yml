@@ -47,7 +47,7 @@ jobs:
               run: |
                 aws s3 sync build s3://qqteam/NightMaze/DevelopBuild/
     SonarQube:
-        name: Build
+        name: SonarQube
         runs-on: windows-latest
         permissions: read-all
         steps:
@@ -80,6 +80,6 @@ jobs:
           - name: Build and analyze
             shell: powershell
             run: |
-              .\.sonar\scanner\dotnet-sonarscanner begin /k:"QQ" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
+              .\.sonar\scanner\dotnet-sonarscanner begin /k:"QQ/NightMaze" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
               dotnet build
               .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
