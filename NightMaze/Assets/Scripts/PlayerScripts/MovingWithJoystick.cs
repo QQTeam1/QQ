@@ -11,7 +11,6 @@ public class MovingWithJoystick : MonoBehaviour
     [SerializeField] private Rigidbody2D rigidbody2d;
     [SerializeField] private FloatingJoystick joystick;
     [SerializeField] private Animator animator;
-    [SerializeField] private float moveSpeed;
     [SerializeField] private Slider slider;
     [SerializeField] private Button sliderButton;
     [SerializeField] private TMP_Text sliderText;
@@ -20,9 +19,10 @@ public class MovingWithJoystick : MonoBehaviour
     [SerializeField] private float teleportSpeed; // Швидкість телепортації
     [SerializeField] private bool isJumping = false; // прапорець, що показує, чи рухається персонаж
     [SerializeField] private bool jumpIsAllowed;
+    public float moveSpeed = 3;
     private int numberOfJumps = 0;
     private Vector2 targetPosition; // Позиція, на яку буде телепортуватися персонаж
-
+    public int maxNumberOfJumps = 2;
     private float angle;
     private Vector2 lastJoystickDirection;
     private Vector2 checkBoxSize;
@@ -101,7 +101,7 @@ public class MovingWithJoystick : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (slider.value < 1 && numberOfJumps < 2)
+        if (slider.value < 1 && numberOfJumps < maxNumberOfJumps)
         {
             slider.value += 0.002f;
         }
@@ -115,8 +115,6 @@ public class MovingWithJoystick : MonoBehaviour
             rigidbody2d.velocity = new Vector2(joystick.Horizontal * moveSpeed, joystick.Vertical * moveSpeed);
         }
     }
-
-
     private IEnumerator MoveToTarget()
     {
         isJumping = true; // встановлення прапорця, що персонаж рухається
@@ -134,4 +132,5 @@ public class MovingWithJoystick : MonoBehaviour
         capsuleCollider.isTrigger = false;
         isJumping = false; // скидаємо прапорець, що персонаж рухається
     }
+
 }
