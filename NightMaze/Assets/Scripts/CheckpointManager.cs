@@ -2,14 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckpointManager : MonoBehaviour
+public class CheckpointManager : MonoBehaviour, IDataPersistance
 {
-    public Vector3 respawnPoint;
+    [SerializeField] Vector3 respawnPoint;
 
-    private void Start()
-    {
-        respawnPoint = transform.position;
-    }
+    public Vector3 RespawnPoint { get; }
 
     public void SetCheckpoint(Vector3 position)
     {
@@ -19,5 +16,15 @@ public class CheckpointManager : MonoBehaviour
     public void RespawnNow()
     {
         transform.position = respawnPoint;
+    }
+
+    public void LoadData(GameData data)
+    {
+        respawnPoint = data.respawnPos;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.respawnPos = respawnPoint;
     }
 }

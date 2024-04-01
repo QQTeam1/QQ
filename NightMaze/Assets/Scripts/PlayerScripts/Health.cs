@@ -6,14 +6,15 @@ using UnityEngine.UIElements;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth;
-    public int currentHealth;
+    [SerializeField] int maxHealth;
+    [SerializeField] int currentHealth;
     private CheckpointManager checkpoint;
 
     void Start()
     {
         currentHealth = maxHealth;
         checkpoint = GameObject.Find("Hero").GetComponent<CheckpointManager>();
+        checkpoint.RespawnNow();
     }
 
     public void TakeDamage(int amount)
@@ -26,11 +27,6 @@ public class Health : MonoBehaviour
             checkpoint.RespawnNow();
             currentHealth = maxHealth;
         }
-    }
-
-    public float GetHealthProcent()
-    {
-        return (float)currentHealth / maxHealth;
     }
 
     public void Heal(int amount)
