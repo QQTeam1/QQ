@@ -46,6 +46,22 @@ MonoBehaviour:
     m_Localized: Music
     m_Metadata:
       m_Items: []
+  - m_Id: 9795264939913216
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9879191515918336
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9879316481011712
+    m_Localized: SETTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9879456579153920
+    m_Localized: ABOUT US
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Ground
   - Walls
-  - Trap
-  - Coin
   layers:
   - Default
   - TransparentFX

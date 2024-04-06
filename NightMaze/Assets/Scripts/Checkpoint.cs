@@ -5,7 +5,7 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     private CheckpointManager checkpoint;
-    public GameObject button;
+    [SerializeField] GameObject button;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Hero")
+        if (collision.gameObject.name == "Hero" && checkpoint.RespawnPoint != transform.position)
         {
             button.SetActive(true);
         }
@@ -26,6 +26,7 @@ public class Checkpoint : MonoBehaviour
         if (checkpoint != null)
         {
             checkpoint.SetCheckpoint(transform.position);
+            button.SetActive(false);
         }
     }
 

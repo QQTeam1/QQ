@@ -30,24 +30,24 @@ public class ShopScript : MonoBehaviour
     {
         panel.SetActive(true);
     }
-    public void OnButtonClickSpeedBust()
+    public void OnButtonClickJumpBust()
     {
-        if(coinManager.numberOfCoins > 3)
+        if (coinManager.numberOfCoins >= 3)
         {
-            coinManager.numberOfCoins = 0;
-            hero.moveSpeed = 4.5f;
+            coinManager.numberOfCoins -= 3;
+            hero.maxNumberOfJumps = 4;
         }
         else
         {
             subPanel.SetActive(true);
         }
     }
-    public void OnButtonClickJumpBust()
+    public void OnButtonClickSpeedBust()
     {
-        if (coinManager.numberOfCoins > 3)
+        if (coinManager.numberOfCoins >= 3)
         {
-            coinManager.numberOfCoins = 0;
-            hero.maxNumberOfJumps = 4;
+            coinManager.numberOfCoins -= 3;
+            hero.moveSpeed = 4.5f;
         }
         else
         {
@@ -56,10 +56,11 @@ public class ShopScript : MonoBehaviour
     }
     public void OnButtonLightBust()
     {
-        if (coinManager.numberOfCoins > 3)
+        if (coinManager.numberOfCoins >= 3)
         {
-            coinManager.numberOfCoins = 0;
-            lightBulb.pointLightInnerRadius = 1.9f;
+            coinManager.numberOfCoins -= 3;
+            lightBulb.pointLightInnerRadius = 1.5f;
+            lightBulb.pointLightOuterRadius = 3f;
         }
         else
         {

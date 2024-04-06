@@ -28,15 +28,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
 
     [SerializeField] private int state = 1;
-    [SerializeField] private bool isPatrooling = false, isFolowing = false, isReturning = false, isWatching = false;
-    //
-    // state = 0 : Противник не активний або повертається на початкову позицію
-    // state = 1 : Противник охотиться за гравцем
-    // state = 2 : Гравець є в полі противника але є за стіною
-    // state = 3 : Гравець збіжав але противник перевіряє останню позицію гравця де його бачив
-    // state = 4 : Противник починає патрулювати територію
-    // state = 5 : Противник патрулює територію
-    //
+    [SerializeField] private bool isPatrooling, isFolowing, isReturning, isWatching;
+    
 
     [SerializeField] private int damage;
     private Health playerHealth;
