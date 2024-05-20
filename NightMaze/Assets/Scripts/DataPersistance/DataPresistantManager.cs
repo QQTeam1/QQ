@@ -2,36 +2,61 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class DataPresistantManager : MonoBehaviour
 {
     [Header("File Storage Config")]
     [SerializeField] private string fileName;
 
-    private GameData gameData; 
+    private GameData gameData;
     private List<IDataPersistance> dataPersistanceObjects;
 
     public static DataPresistantManager instance { get; private set; }
     private FileDataHandler dataHandler;
-
-    private void Start()
-    {
-        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
-        this.dataPersistanceObjects = FindAllDataPersistanceObjects();
-        LoadGame();
-    }
 
     private void Awake()
     {
         if (instance != null)
         {
             Debug.LogError("Found more than one Data Persistance Manager in the scene");
+            Destroy(this.gameObject);
+            return;
         }
+
         instance = this;
+        DontDestroyOnLoad(this.gameObject);
+
+        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
     }
-    
-    public void NewGame() 
+
+
+    private void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneUnloaded -= OnSceneUnloaded;
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        this.dataPersistanceObjects = FindAllDataPersistanceObjects();
+        LoadGame();
+    }
+
+    public void OnSceneUnloaded(Scene scene)
+    {
+        SaveGame();
+    }
+
+    public void NewGame()
+    {
+        print("New game");
         this.gameData = new GameData();
     }
 
@@ -42,7 +67,7 @@ public class DataPresistantManager : MonoBehaviour
         if (this.gameData == null)
         {
             Debug.LogError("No data was found. Init data to defaults");
-            NewGame();
+            return;
         }
 
         foreach (var dataPersistanceObj in dataPersistanceObjects)
@@ -53,6 +78,12 @@ public class DataPresistantManager : MonoBehaviour
 
     public void SaveGame()
     {
+        if (this.gameData == null)
+        {
+            Debug.LogWarning("No data was found");
+            return;
+        }
+
         foreach (var dataPersistanceObj in dataPersistanceObjects)
         {
             dataPersistanceObj.SaveData(ref gameData);
@@ -72,5 +103,10 @@ public class DataPresistantManager : MonoBehaviour
             .OfType<IDataPersistance>();
 
         return new List<IDataPersistance>(dataPersistanceObjects);
+    }
+
+    public bool HasGameData()
+    {
+        return gameData != null;
     }
 }

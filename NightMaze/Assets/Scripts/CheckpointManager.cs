@@ -6,7 +6,7 @@ public class CheckpointManager : MonoBehaviour, IDataPersistance
 {
     [SerializeField] Vector3 respawnPoint;
 
-    public Vector3 RespawnPoint { get; }
+    public Vector3 RespawnPoint { get { return respawnPoint; } }
 
     public void SetCheckpoint(Vector3 position)
     {

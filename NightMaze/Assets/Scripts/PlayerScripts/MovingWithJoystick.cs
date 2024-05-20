@@ -19,6 +19,7 @@ public class MovingWithJoystick : MonoBehaviour
     [SerializeField] private float teleportSpeed; // Швидкість телепортації
     [SerializeField] private bool isJumping = false; // прапорець, що показує, чи рухається персонаж
     [SerializeField] private bool jumpIsAllowed;
+    public float jumpLoadSpeed = 0.002f;
     public float moveSpeed = 3;
     private int numberOfJumps = 0;
     private Vector2 targetPosition; // Позиція, на яку буде телепортуватися персонаж
@@ -103,7 +104,7 @@ public class MovingWithJoystick : MonoBehaviour
     {
         if (slider.value < 1 && numberOfJumps < maxNumberOfJumps)
         {
-            slider.value += 0.002f;
+            slider.value += jumpLoadSpeed;
         }
         else if (slider.value >= 1)
         {
@@ -117,12 +118,11 @@ public class MovingWithJoystick : MonoBehaviour
     }
     private IEnumerator MoveToTarget()
     {
-        isJumping = true; // встановлення прапорця, що персонаж рухається
+        isJumping = true;
         animator.SetBool("isJumping", true);
 
-        while ((Vector2)transform.position != targetPosition) // поки персонаж не дійшов до цільової позиції
+        while ((Vector2)transform.position != targetPosition && health.currentHealth > 0)
         {
-            // Рухаємо персонажа в напрямку цільової позиції з заданою швидкістю
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, teleportSpeed * Time.deltaTime);
 
             yield return null; // чекаємо до наступного кадру
@@ -130,7 +130,7 @@ public class MovingWithJoystick : MonoBehaviour
         dust.Play();
         animator.SetBool("isJumping", false);
         capsuleCollider.isTrigger = false;
-        isJumping = false; // скидаємо прапорець, що персонаж рухається
+        isJumping = false;
     }
 
 }

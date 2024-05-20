@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9879191515918336
-    m_Localized: PLAY
+    m_Localized: NEW GAME
     m_Metadata:
       m_Items: []
   - m_Id: 9879316481011712
@@ -60,6 +60,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 9879456579153920
     m_Localized: ABOUT US
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27183551287488512
+    m_Localized: CONTINUE
     m_Metadata:
       m_Items: []
   references:

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Walls
+  - Coin
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -14,11 +16,11 @@ TagManager:
   - Water
   - UI
   - HalfWall
+  - Light
   - 
   - 
-  - 
-  - 
-  - 
+  - Minimap
+  - Ground
   - 
   - 
   - 
@@ -40,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3963148321
+    locked: 0
   - name: Walls
     uniqueID: 212455453
     locked: 0
@@ -51,4 +56,7 @@ TagManager:
     locked: 0
   - name: Top
     uniqueID: 1585048727
+    locked: 0
+  - name: Canvas
+    uniqueID: 2760860623
     locked: 0
